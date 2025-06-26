@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -5,51 +6,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfólio – Jovana Silva Pimentel</title>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
-    body { background: #f4f4f4; color: #333; line-height: 1.6; }
-    header { background: #222; color: #fff; padding: 2rem; text-align: center; }
-    section { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; }
-    h2 { margin-bottom: 1rem; border-bottom: 2px solid #ccc; padding-bottom: .5rem; }
-    .skills ul, .projects ul { list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; }
-    li { background: #fff; border: 1px solid #ddd; padding: 1rem; border-radius: 8px; flex: 1 1 200px; }
-    footer { text-align: center; padding: 2rem; background: #222; color: #fff; }
-    a { color: #0077cc; text-decoration: none; }
+    body {{ font-family: Arial, sans-serif; margin: 0; background: #fff; color: #333; }}
+    header {{ text-align: center; padding: 2rem 1rem; }}
+    header img {{ width: 120px; height: 120px; border-radius: 50%; border: 3px solid #800080; }}
+    header h1 {{ font-size: 2rem; color: #2c2c5a; }}
+    .skills, .projects, .contact {{ max-width: 1000px; margin: 2rem auto; padding: 1rem; }}
+    .skills ul, .projects ul {{ display: flex; flex-wrap: wrap; gap: 1rem; list-style: none; padding: 0; }}
+    .skills li, .projects li {{ background: #fafafa; border: 1px solid #ccc; padding: 1rem; border-radius: 8px; flex: 1 1 300px; }}
+    .projects img {{ max-width: 100%; border-radius: 8px; }}
+    h2 {{ color: #2c2c5a; margin-bottom: 1rem; }}
+    .contact a {{ color: #800080; text-decoration: none; font-weight: bold; }}
+    footer {{ text-align: center; padding: 2rem; font-size: 0.9rem; color: #aaa; }}
   </style>
 </head>
 <body>
   <header>
+    <img src="jovana-perfil.jpg" alt="Foto de Jovana" />
     <h1>Jovana Silva Pimentel</h1>
-    <p>Desenvolvedora Web em formação | Criadora de projetos criativos</p>
+    <p>Desenvolvedora Web em formação</p>
   </header>
-  <section class="about">
-    <h2>Sobre mim</h2>
-    <p>Sou apaixonada por tecnologia e estou me especializando em desenvolvimento web. Busco sempre aprender novas habilidades e colocar em prática através de projetos criativos e funcionais.</p>
-  </section>
+
   <section class="skills">
-    <h2>Habilidades</h2>
+    <h2>Minhas habilidades</h2>
     <ul>
-      <li>HTML5</li>
-      <li>CSS3</li>
+      <li>HTML</li>
+      <li>CSS</li>
       <li>JavaScript</li>
-      <li>Git e GitHub</li>
-      <li>Responsividade</li>
+      <li>Git & GitHub</li>
     </ul>
   </section>
+
   <section class="projects">
-    <h2>Projetos</h2>
+    <h2>Meus projetos</h2>
     <ul>
-      <li><strong>Site de Portfólio</strong><br>Página pessoal com apresentação e projetos.<br><a href="#">Ver projeto</a></li>
-      <li><strong>Mini Blog com HTML/CSS</strong><br>Layout moderno e responsivo para blog.<br><a href="#">Ver projeto</a></li>
-      <li><strong>To‑do List com JavaScript</strong><br>Aplicação para gerenciar tarefas.<br><a href="#">Ver projeto</a></li>
+      <li>
+        <img src="projeto-1-planetas.jpg" alt="Projeto Planetas" />
+        <strong>Explorando Constelações</strong><br>
+        <p>Projeto interativo sobre o espaço com botões explicativos.</p>
+      </li>
+      <li>
+        <img src="projeto-2-ia.jpg" alt="Projeto IA" />
+        <strong>Você decide o futuro da IA</strong><br>
+        <p>Experiência narrativa interativa sobre inteligência artificial.</p>
+      </li>
+      <li>
+        <img src="projeto-3-livros.jpg" alt="Projeto Livros" />
+        <strong>Meus livros favoritos</strong><br>
+        <p>Lista de livros com informações e botão de compra.</p>
+      </li>
     </ul>
   </section>
+
   <section class="contact">
-    <h2>Contato</h2>
-    <p>Me envie um e‑mail: <a href="mailto:jovana@email.com">jovana@email.com</a></p>
-    <p>Me siga no Instagram: <a href="https://instagram.com/jovana">@jovana</a></p>
+    <h2>Entre em contato</h2>
+    <p><a href="https://instagram.com/jovana">@jovana</a></p>
+    <p>Email: <a href="mailto:jovana@email.com">jovana@email.com</a></p>
   </section>
+
   <footer>
-    <p>© 2025 Jovana Silva Pimentel. Todos os direitos reservados.</p>
+    <p>© 2025 Produzido por Jovana Silva Pimentel</p>
   </footer>
 </body>
 </html>
